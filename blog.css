@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.blog-Top {
+    background-image: url("Photos/blog_main.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+.blog-head {
+    display: inline-block;
+    padding: 20px;
+    margin-left: 60px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.blog-head2 {
+    display: inline-block;
+    margin-left: 56%;
+    padding: 20px;
+    font-size: 13px;
+}
+
+.blog-btn1 {
+    display: inline-block;
+    margin-left: 3px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+
+.blog-btn1:hover {
+    padding: 15px 32px;
+    background-color: #c2cac3;
+    color: black;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+
+}
+
+ul {
+    margin-left: 46%;
+    padding: 50px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: aliceblue;
+    color: green;
+    padding: 12px;
+    border-radius: 20px;
+
+}
+.Travel{
+    margin-left: 32%;
+    margin-top: 50px;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 45px;
+    letter-spacing: 8px;
+    color: aliceblue;
+}
+.blog{
+    margin-left: 44%;
+    margin-top: 2px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    letter-spacing: 15px;
+
+}
+
+.blog-btn2 {
+    margin-left: 46%;
+    margin-top: 30px;
+    background-color: #5d695d;
+    border: none;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.blog-btn2:hover {
+    background-color: #c2cac3;
+    color: black;
+}
+
+.blog-section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 60px;
+    background: #fff;
+}
+
+.blog-img1 {
+    width: 480px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.blog-content1 {
+    max-width: 800px;
+}
+
+.blog-content1 .blog-heading1 {
+    color: #32a871;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.blog-content1 .blog-para1 {
+    font-size: 24px;
+    color: #131111;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 32px;
+    line-height: 30px;
+}
+.blog-heading1{
+    padding-bottom: 50px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.blog-author1{
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4CAF50;
+
+}
+
+.blog-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 60px;
+    background: #fff;
+}
+
+.blog-img2 {
+    width: 480px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.blog-content2 {
+    max-width: 800px;
+}
+
+.blog-content2 .blog-heading2 {
+    color: #32a871;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.blog-content2 .blog-para2 {
+    font-size: 24px;
+    color: #131111;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 32px;
+    line-height: 30px;
+}
+.blog-heading2{
+    padding-bottom: 50px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.blog-author2{
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4CAF50;
+
+}
+
+.blog-section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 60px;
+    background: #fff;
+}
+
+.blog-img3 {
+    width: 480px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.blog-content3 {
+    max-width: 800px;
+}
+
+.blog-content3 .blog-heading3 {
+    color: #32a871;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.blog-content3 .blog-para3 {
+    font-size: 24px;
+    color: #131111;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 32px;
+    line-height: 30px;
+}
+.blog-heading3{
+    padding-bottom: 50px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.blog-author3{
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4CAF50;
+
+}
+.blog-check {
+    margin-left: 43%;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.blog-done {
+    display: inline-block;
+    margin-left: 36%;
+    padding: 50px;
+}
+
+.blog-A {
+    padding: 12px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blog-A {
+    text-decoration: none;
+    color: black;
+}
+
+.blog-A:hover {
+    background-color: aliceblue;
+    color: green;
+    padding: 14px;
+    border-radius: 20px;
+}
+
+.blog-end {
+    width: 94%;
+    height: 180px;
+    background-color: rgb(47, 85, 77);
+    margin-top: 20px;
+    padding: 40px;
+
+}
+
+.blog-website {
+    margin-left: 26%;
+}
+.blog-Tophead {
+    box-shadow: 0 8px 12px -2px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
